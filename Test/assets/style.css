@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#contianer {
+    width: 80%;
+    margin: auto;
+}
+#content {
+    display:flex
+}
+#content #recent_links {
+    flex-grow: 2;
+    background-color: white;
+}
+
+
+
+#content #recent_links article {
+    display: flex;
+}
+article {
+    margin: 0px 0px 20px 0px;
+  }
+  
+  article div:nth-child(2) {
+    padding: 0px 0px 0px 10px;
+    position: relative;
+  }
+  article h3 {
+    text-transform: capitalize;
+  }
+  
+  
+  article time {
+    color:#399DF2;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+  }
+
+#content #most_viewed {
+    flex-grow: 1;
+    flex-basis: 700px;
+}
+.one
+{
+    background-color: lightblue;
+    flex-basis: 100px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    -webkit-filter: brightness(0.7);
+    
+    }
+    .one #text-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline
+    }
+    .two
+    {
+        background-color: lightblue;
+        flex-basis: 100px;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        position: relative;
+        -webkit-filter: brightness(0.7);
+        
+        }
+        .two #text-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            height: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline
+        }
+
+        .three
+        {
+            background-color: lightblue;
+            flex-basis: 100px;
+            width: 350px;
+            height: 350px;
+            text-align: center;
+            position: relative;
+            -webkit-filter: brightness(0.7);
+            
+            }
+            .three #text-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 95%;
+                height: 95%;
+                display: flex;
+                flex-direction: column;
+                justify-content: baseline
+            }
