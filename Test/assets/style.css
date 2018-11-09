@@ -51,7 +51,7 @@ article {
     height: 350px;
     text-align: center;
     position: relative;
-    -webkit-filter: brightness(0.7);
+    -webkit-filter: blur(0.5px) brightness(0.9);
     
     }
     .one #text-wrapper {
