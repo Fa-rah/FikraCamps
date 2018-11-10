@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+header {
+    height: 100px;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    align-content: center;
+}
 #contianer {
     width: 80%;
     margin: auto;
@@ -12,12 +21,12 @@
 #content #recent_links {
     flex-grow: 2;
     background-color: white;
+    font-family: 'Playfair Display', serif;
 }
-
-
 
 #content #recent_links article {
     display: flex;
+    padding: 0px 20px 0px 0px;
 }
 article {
     margin: 0px 0px 20px 0px;
@@ -27,13 +36,19 @@ article {
     padding: 0px 0px 0px 10px;
     position: relative;
   }
+
   article h3 {
+    font-family: 'Playfair Display', serif;
     text-transform: capitalize;
   }
   
+  article p {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
   
-  article time {
+  #time1 {
     color:#399DF2;
+    font-family: 'Source Sans Pro', sans-serif;
     position: absolute;
     bottom: 0px;
     left: 10px;
@@ -42,68 +57,61 @@ article {
 #content #most_viewed {
     flex-grow: 1;
     flex-basis: 700px;
+    font-family: 'Playfair Display', serif;
 }
+
+#font {
+color: #3D3A3A;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
 .one
 {
     background-color: lightblue;
-    flex-basis: 100px;
     width: 350px;
     height: 350px;
     text-align: center;
-    position: relative;
-    -webkit-filter: brightness(0.7);
-    
+    position: relative;    
     }
-    .one #text-wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 95%;
-        height: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline
-    }
+
     .two
     {
         background-color: lightblue;
-        flex-basis: 100px;
         width: 350px;
         height: 350px;
         text-align: center;
-        position: relative;
-        -webkit-filter: brightness(0.7);
-        
+        position: relative;        
         }
-        .two #text-wrapper {
+
+
+        .three
+        {
+            background-color: lightblue;
+            width: 350px;
+            height: 350px;
+            text-align: center;
+            position: relative;
+            }  
+            
+            #text-wrapper {
+            color: white;
             position: absolute;
             top: 0;
             left: 0;
             width: 95%;
             height: 95%;
+            padding-top: 50%;
+            padding-left: 10px;
             display: flex;
             flex-direction: column;
             justify-content: baseline
         }
+        #time2 {
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: start;
+            padding: 10px 0px 0px 10px;
+            position: absolute;
 
-        .three
-        {
-            background-color: lightblue;
-            flex-basis: 100px;
-            width: 350px;
-            height: 350px;
-            text-align: center;
-            position: relative;
-            -webkit-filter: brightness(0.7);
-            
-            }
-            .three #text-wrapper {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 95%;
-                height: 95%;
-                display: flex;
-                flex-direction: column;
-                justify-content: baseline
-            }
+        }
